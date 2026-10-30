@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Japan?",
+    "label": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Who wrote Hamlet?",
+    "label": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Define photosynthesis in one sentence.",
+    "label": "easy"
+  },
+  {
+    "id": 4,
+    "question": "How many days are in a leap year?",
+    "label": "easy"
+  },
+  {
+    "id": 5,
+    "question": "Translate \"good morning\" to Spanish.",
+    "label": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What does CPU stand for?",
+    "label": "easy"
+  },
+  {
+    "id": 7,
+    "question": "When did World War II end?",
+    "label": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is 15% of 200?",
+    "label": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Name three primary colors.",
+    "label": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What is the boiling point of water in Celsius?",
+    "label": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Who painted the Mona Lisa?",
+    "label": "easy"
+  },
+  {
+    "id": 12,
+    "question": "What is the largest planet in the solar system?",
+    "label": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Convert 5 kilometers to miles.",
+    "label": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What does HTTP stand for?",
+    "label": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Give me a synonym for \"happy\".",
+    "label": "easy"
+  },
+  {
+    "id": 16,
+    "question": "What is the chemical symbol for gold?",
+    "label": "easy"
+  },
+  {
+    "id": 17,
+    "question": "Write a one-line greeting for a birthday card.",
+    "label": "easy"
+  },
+  {
+    "id": 18,
+    "question": "What is the square root of 144?",
+    "label": "easy"
+  },
+  {
+    "id": 19,
+    "question": "Which language is used for styling web pages?",
+    "label": "easy"
+  },
+  {
+    "id": 20,
+    "question": "What does an API do, in one sentence?",
+    "label": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Fix the spelling: \"recieve the pakage\".",
+    "label": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What is the plural of \"mouse\" (the animal)?",
+    "label": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What time zone is Cairo in?",
+    "label": "easy"
+  },
+  {
+    "id": 24,
+    "question": "What is a noun?",
+    "label": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Name the longest river in Africa.",
+    "label": "easy"
+  },
+  {
+    "id": 26,
+    "question": "What is the difference between \"affect\" and \"effect\"?",
+    "label": "easy"
+  },
+  {
+    "id": 27,
+    "question": "Summarize in one sentence: The meeting is moved from Monday to Wednesday because the manager is travelling.",
+    "label": "easy"
+  },
+  {
+    "id": 28,
+    "question": "What is Git used for?",
+    "label": "easy"
+  },
+  {
+    "id": 29,
+    "question": "Give a short definition of machine learning.",
+    "label": "easy"
+  },
+  {
+    "id": 30,
+    "question": "How many bytes are in a kilobyte?",
+    "label": "easy"
+  },
+  {
+    "id": 31,
+    "question": "Compare a B-tree index and a hash index in a database and explain when each one is better.",
+    "label": "hard"
+  },
+  {
+    "id": 32,
+    "question": "Explain why gradient descent can get stuck at saddle points and how momentum helps.",
+    "label": "hard"
+  },
+  {
+    "id": 33,
+    "question": "Design a rate limiter for an API used by 10 million users and explain the trade-offs.",
+    "label": "hard"
+  },
+  {
+    "id": 34,
+    "question": "Debug this Python code and explain the bug:\n```python\ndef avg(xs):\n    return sum(xs) / len(xs)\nprint(avg([]))\n```",
+    "label": "hard"
+  },
+  {
+    "id": 35,
+    "question": "Analyze the pros and cons of microservices versus a monolith for a 5-person startup.",
+    "label": "hard"
+  },
+  {
+    "id": 36,
+    "question": "Prove that the sum of two even integers is even, step by step.",
+    "label": "hard"
+  },
+  {
+    "id": 37,
+    "question": "Write a Python function that merges overlapping intervals and explain its time complexity.",
+    "label": "hard"
+  },
+  {
+    "id": 38,
+    "question": "Explain the difference between L1 and L2 regularization and how each one affects the weights of a linear model.",
+    "label": "hard"
+  },
+  {
+    "id": 39,
+    "question": "Optimize this SQL query and explain why it is slow: SELECT * FROM orders WHERE YEAR(created_at) = 2025 AND customer_id IN (SELECT id FROM customers WHERE country = 'EG');",
+    "label": "hard"
+  },
+  {
+    "id": 40,
+    "question": "Compare RAG and fine-tuning for adding company knowledge to an LLM, and say when to choose each.",
+    "label": "hard"
+  },
+  {
+    "id": 41,
+    "question": "A model has 99% accuracy on a fraud dataset where 0.5% of cases are fraud. Explain why this may be misleading and which metrics to use instead.",
+    "label": "hard"
+  },
+  {
+    "id": 42,
+    "question": "Explain how the Raft consensus algorithm elects a leader, step by step.",
+    "label": "hard"
+  },
+  {
+    "id": 43,
+    "question": "Design a database schema for a ride sharing app and explain your choices.",
+    "label": "hard"
+  },
+  {
+    "id": 44,
+    "question": "Refactor this function to be easier to test and explain what you changed:\n```python\ndef report():\n    import requests\n    r = requests.get(\"http://x.com/data\")\n    print(sum(r.json()))\n```",
+    "label": "hard"
+  },
+  {
+    "id": 45,
+    "question": "Derive the gradient of the mean squared error loss with respect to the weights of a linear regression model.",
+    "label": "hard"
+  },
+  {
+    "id": 46,
+    "question": "Analyze why transformer attention is quadratic in sequence length and name two ways to reduce that cost.",
+    "label": "hard"
+  },
+  {
+    "id": 47,
+    "question": "Compare Docker containers and virtual machines in terms of isolation, performance and security.",
+    "label": "hard"
+  },
+  {
+    "id": 48,
+    "question": "Explain the trade-off between consistency and availability in a distributed database during a network partition.",
+    "label": "hard"
+  },
+  {
+    "id": 49,
+    "question": "Implement an LRU cache in Python and explain how you made get and put O(1).",
+    "label": "hard"
+  },
+  {
+    "id": 50,
+    "question": "Explain step by step how to choose between precision and recall for a cancer screening model.",
+    "label": "hard"
+  }
+]
