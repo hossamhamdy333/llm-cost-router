@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-litellm
-pydantic
-prometheus-client
+fastapi==0.162.0
+uvicorn==0.54.0
+litellm==1.106.6
+pydantic==2.14.2
+prometheus-client==0.26.0
