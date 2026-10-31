@@ -189,8 +189,7 @@ the evaluation logic.
 - **Both models are in the same Flash family.** The quality gap is
   smaller than it would be between Flash and Pro, which my free key
   could not use.
-- **The dependencies are not pinned.** `requirements.txt` has package
-  names only, so a build months from now may pull different versions.
+- **There is no fallback when the cheap model answers badly.**
 
 ## Stack
 
