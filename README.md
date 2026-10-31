@@ -135,19 +135,18 @@ repeat on cached results makes no API calls.
 
 ## Run it
 
-You need a free Gemini API key from Google AI Studio.
+You need a free Gemini API key from Google AI Studio. Copy `.env.example` to `.env` and put your key in it.
 
 ```bash
 docker build -t llm-cost-router .
-export GEMINI_API_KEY=your_key
-docker run --rm -p 8000:8000 -e GEMINI_API_KEY llm-cost-router
+docker run --rm -p 8000:8000 --env-file .env llm-cost-router
 ```
 
 Without Docker:
 
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY=your_key
+set -a; source .env; set +a
 uvicorn app.main:app --port 8000
 ```
 
